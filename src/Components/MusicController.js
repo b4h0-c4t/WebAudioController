@@ -15,6 +15,8 @@ const MusicController = ({ data, dispatcher }) => {
           is_playing: json.isplaying,
           artist: json.artist,
           title: json.title,
+          total: json.total,
+          position: json.position,
         })));
   };
   const toggle = () => {
