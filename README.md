@@ -21,5 +21,9 @@ This is music controller for miraibase audio server.
     API_URL: // your api server //
   }
 ```
+2. change property in package.json
+```
+  "hope": // add your homepage path //
+```
 2. npm i && npm build
-3. move under build dir to your publish dir
+2. move under build dir to your publish dir
